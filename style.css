@@ -1,0 +1,39 @@
+html{
+    background-color: #111;
+    text-align: center;
+}
+body{
+    text-align: center;
+}
+button{
+    background-color: #222;
+    color: grey;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: black;
+}
+#number{
+    background-color: blue;
+}
+#operator{
+    background-color: red;
+}
+#clear{
+    width: 100px;
+}
+div{
+    margin: auto;
+    display: block;
+    height: 30px;
+    width: 10%;
+    border-radius: 30px;
+    background-color: grey;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 150px;
+    font-size: 20px;
+}
