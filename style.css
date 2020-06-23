@@ -7,33 +7,45 @@ body{
 }
 button{
     background-color: #222;
-    color: grey;
+    color: white;
     border: none;
     margin: 5px;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
     border-radius: 5px;
+    
 }
 button:hover{
     background-color: black;
 }
 #number{
-    background-color: blue;
+    background-color: grey;
 }
-#operator{
-    background-color: red;
+#equal{
+    background-color: lightsteelblue;
 }
 #clear{
-    width: 100px;
+    background-color: #222;
 }
+#operator{
+    background-color: #333;
+}
+button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  
 div{
     margin: auto;
     display: block;
-    height: 30px;
-    width: 10%;
-    border-radius: 30px;
-    background-color: grey;
+    height: 50px;
+    width: 29%;
+    border-radius: 10px;
+    background-color: #222;
     text-align: right;
-    padding-right: 10px;
-    padding-top: 10px;
+    color: white;
+    padding: 10px 10px 0 10px;
     margin-top: 150px;
-    font-size: 20px;
+    font-size: 40px;
 }
