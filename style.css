@@ -5,6 +5,7 @@ html{
 body{
     text-align: center;
 }
+
 button{
     background-color: #222;
     color: white;
@@ -16,8 +17,14 @@ button{
     border-radius: 5px;
     
 }
-button:hover{
-    background-color: black;
+#clearButton{
+    background-color: #222;
+}
+#switch{
+    background-color: grey;
+}
+#clearEntry{
+    background-color: #222;
 }
 #number{
     background-color: grey;
@@ -27,15 +34,19 @@ button:hover{
 }
 #clear{
     background-color: #222;
+    width: 136px;
 }
 #operator{
     background-color: #333;
 }
 button::-moz-focus-inner {
     border: 0;
-  }
-  
-  
+}
+
+.button:hover{
+    border: solid thin white;
+}
+    
 div{
     margin: auto;
     display: block;
