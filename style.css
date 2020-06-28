@@ -44,7 +44,8 @@ button::-moz-focus-inner {
 }
 
 .button:hover{
-    border: solid thin white;
+
+    transform: scale(1.15);
 }
     
 div{
