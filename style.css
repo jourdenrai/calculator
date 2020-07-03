@@ -42,7 +42,9 @@ button{
 button::-moz-focus-inner {
     border: 0;
 }
-
+:-moz-focusring{
+    color:none;
+}
 .button:hover{
 
     transform: scale(1.15);
