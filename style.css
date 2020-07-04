@@ -1,5 +1,5 @@
 html{
-    background-color: #111;
+    background-color: black;
     text-align: center;
 }
 body{
@@ -50,7 +50,7 @@ button::-moz-focus-inner {
     transform: scale(1.15);
 }
     
-div{
+#output{
     margin: auto;
     display: block;
     height: 50px;
